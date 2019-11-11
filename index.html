@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Space - Home</title>
+	
+	<link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+	<!-- Landing section -->
+	<section class="landing">
+		<header>
+			<div class="title">Space</div>
+			<ul>
+				<li><a class="active" href="#">Home</a></li>
+				<li><a href="solarsystem.html">Solar System</a></li>
+				<li><a href="#">Page 3</a></li>
+				<li><a href="#">Page 4</a></li>
+			</ul>
+		</header>
+		<div class="landing-main">
+			<h1>Venture Into The <span class="flicker">Unkown</span></h1>
+			<!-- <span>By Zakariya Oulhadj</span> -->
+			<div class="buttons">
+				<button>About Me</button>
+				<button>More Info</button>	
+			</div>
+		</div>
+
+		<div class="waves">
+			<svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+			viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+				<defs>
+					<path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+				</defs>
+				<g class="parallax">
+					<use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(189,30,221,0.7)" />
+					<use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(189,30,221,0.5)" />
+					<use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(189,30,221,0.3)" />
+					<use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(189,30,221,1)" />
+				</g>
+			</svg>
+		</div>
+
+		<video autoplay loop muted>
+			<!-- <source src="videos/landing-background.mp4" type="video/mp4"> -->
+		</video>
+	</section>
+
+	<!-- About section -->
+	<section class="about">
+		<div class="about-header">
+			<h1>Space Facts</h1>
+		</div>
+		<div class="card">
+			<p></p>
+			<button><a href="#more">Expand</a></button>
+		</div>
+		<div class="card-expanded" style="display: none;" >
+			<button><a href="#more">Hide</a></button>
+		</div>
+	</section>
+
+	<!-- Slider section -->
+	<div class="slider">
+		<div class="slider-header">
+			<h1>Gallery</h1>
+		</div>
+		<div class="cards">
+			<!-- <button class="previous"><i class="fas fa-arrow-left fa-2x"></i></button> -->
+			<div class="items item1"></div>
+			<div class="items item2"></div>
+			<div class="items item3"></div>
+			<div class="items item4"></div>
+			<div class="items item5"></div>
+			<!-- <button class="next"><i class="fas fa-arrow-right fa-2x"></i></button> -->
+		</div>
+	</div>
+
+	<!-- Javascript files -->
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
