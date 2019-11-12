@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +15,8 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a class="active" href="#">Solar System</a></li>
-            <li><a href="#">Page 3</a></li>
-            <li><a href="#">Page 4</a></li>
+            <li><a href="https://www.youtube.com/watch?v=uD4izuDMUQA" target="_blank">Video</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </header>
     <div class="solar-system">
@@ -28,75 +27,235 @@
             <!-- Sun -->
             <div class="sun">
                 <div class="panel__planet">
-                    <div class="planet__atmosphere">
-                        <div class="planet__surface"></div>
-                    </div>
+                    <a class="button" href="#popup">
+                        <div class="planet__atmosphere">
+                            <div class="planet__surface"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
+            <div class="popup" id="popup">
+                <div class="popup-inner">
+                    <div class="popup__photo">
+                        <img src="images/solarsystem/sun.jpg">
+                    </div>
+                    <div class="popup__text">
+                        <h1>Sun</h1>
+                        <p>The Sun, or Sol, is the star at the center of the Solar System. 
+                            It is a nearly perfect sphere of hot plasma, with internal convective 
+                            motion that generates a magnetic field via a dynamo process. It is by far the most important source 
+                            of energy for life on Earth.
+                        </p>
+                    </div>
+                    <a class="popup__close" href="#">X</a>
+                </div>
+            </div>
+
             <!-- Mercury -->
             <div class="mercury">
                 <div class="panel__planet">
-                    <div class="planet__atmosphere">
-                        <div class="planet__surface"></div>
-                    </div>
+                    <a class="button" href="#popup1">
+                        <div class="planet__atmosphere">
+                            <div class="planet__surface"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
+            <div class="popup" id="popup1">
+                <div class="popup-inner">
+                    <div class="popup__photo">
+                        <img src="images/solarsystem/mercury2.jpg" alt="">
+                    </div>
+                    <div class="popup__text">
+                        <h1>Mercury</h1>
+                        <p>The closest planet to the sun. It circles the sun faster than all the other planets, 
+                            which is why Romans named it after their swift-footed messenger god.
+                        </p>
+                    </div>
+                    <a class="popup__close" href="#">X</a>
+                </div>
+            </div>
+            
+            
             <!-- Venus -->
             <div class="venus">
                 <div class="panel__planet">
-                    <div class="planet__atmosphere">
-                        <div class="planet__surface"></div>
-                    </div>
+                    <a href="#popup2">
+                        <div class="planet__atmosphere">
+                            <div class="planet__surface"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
+            <div class="popup" id="popup2">
+                <div class="popup-inner">
+                    <div class="popup__photo">
+                        <img src="images/solarsystem/venus2.jpg" alt="">
+                    </div>
+                    <div class="popup__text">
+                        <h1>Venus</h1>
+                        <p>Named for the Roman goddess of love and beauty. In ancient times, 
+                            Venus was often thought to be two different stars, the evening star 
+                            and the morning star..
+                        </p>
+                    </div>
+                    <a class="popup__close" href="#">X</a>
+                </div>
+            </div>
+
+
             <!-- Earth -->
             <div class="earth">
                 <div class="panel__planet">
-                    <div class="planet__atmosphere">
-                        <div class="planet__surface"></div>
-                    </div>
+                    <a href="#popup3">
+                        <div class="planet__atmosphere">
+                            <div class="planet__surface"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
+            <div class="popup" id="popup3">
+                <div class="popup-inner">
+                    <div class="popup__photo">
+                        <img src="images/solarsystem/earth.jpg" alt="">
+                    </div>
+                    <div class="popup__text">
+                        <h1>Earth</h1>
+                        <p>Earth, our home. It is the only planet known to have an atmosphere 
+                            containing free oxygen, oceans of liquid water on its surface, and, of course, life.
+                        </p>
+                    </div>
+                    <a class="popup__close" href="#">X</a>
+                </div>
+            </div>
+
             <!-- Mars -->
             <div class="mars">
                 <div class="panel__planet">
-                    <div class="planet__atmosphere">
-                        <div class="planet__surface"></div>
-                    </div>
+                    <a href="#popup4">
+                        <div class="planet__atmosphere">
+                            <div class="planet__surface"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
+            <div class="popup" id="popup4">
+                <div class="popup-inner">
+                    <div class="popup__photo">
+                        <img src="images/solarsystem/mars.jpg" alt="">
+                    </div>
+                    <div class="popup__text">
+                        <h1>Mars</h1>
+                        <p>Fourth planet from the Sun and the second smallest planet in the solar systm. 
+                            Named after the Roman god of war often described as the “Red Planet”.
+                        </p>
+                    </div>
+                    <a class="popup__close" href="#">X</a>
+                </div>
+            </div>
+
             <!-- Jupiter -->
             <div class="jupiter">
                 <div class="panel__planet">
-                    <div class="planet__atmosphere">
-                        <div class="planet__surface"></div>
-                    </div>
+                    <a href="#popup5">
+                        <div class="planet__atmosphere">
+                            <div class="planet__surface"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
+            <div class="popup" id="popup5">
+                <div class="popup-inner">
+                    <div class="popup__photo">
+                        <img src="images/solarsystem/jupiter.jpg" alt="">
+                    </div>
+                    <div class="popup__text">
+                        <h1>Jupiter</h1>
+                        <p>Jupiter is the largest planet in the solar systm. 
+                            Fittingly, it was named after the king of the gods in Roman mythology.
+                        </p>
+                    </div>
+                    <a class="popup__close" href="#">X</a>
+                </div>
+            </div>
+
+
             <!-- Saturn -->
             <div class="panel panel--saturn">
                 <div class="panel__planet">
-                    <div class="planet__atmosphere">
-                        <div class="planet__surface"></div>
-                    </div>
+                    <a href="#popup6">
+                        <div class="planet__atmosphere">
+                            <div class="planet__surface"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
+            <div class="popup" id="popup6">
+                <div class="popup-inner">
+                    <div class="popup__photo">
+                        <img src="images/solarsystem/saturn.jpg" alt="">
+                    </div>
+                    <div class="popup__text">
+                        <h1>Saturn</h1>
+                        <p>Saturn is the sixth planet from the sun and the second largest planet in the solar systm. 
+                            Saturn was the Roman name for Cronus, the lord of the Titans.
+                        </p>
+                    </div>
+                    <a class="popup__close" href="#">X</a>
+                </div>
+            </div>
+
             <!-- Uranus -->
             <div class="panel panel--uranus">
                 <div class="panel__planet">
-                    <div class="planet__atmosphere">
-                        <div class="planet__surface"></div>
-                    </div>
+                    <a href="#popup7">
+                        <div class="planet__atmosphere">
+                            <div class="planet__surface"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
+            <div class="popup" id="popup7">
+                <div class="popup-inner">
+                    <div class="popup__photo">
+                        <img src="images/solarsystem/uranus2.jpg" alt="">
+                    </div>
+                    <div class="popup__text">
+                        <h1>Uranus</h1>
+                        <p>The first planet to be discovered by scientists. 
+                            The planet is notable for its dramatic tilt, which causes its axis to point nearly directly at the sun.
+                        </p>
+                    </div>
+                    <a class="popup__close" href="#">X</a>
+                </div>
+            </div>
+
             <!-- Neptune -->
             <div class="panel panel--neptune">
                 <div class="panel__planet">
-                    <div class="planet__atmosphere">
-                        <div class="planet__surface"></div>
+                    <a href="#popup8">
+                        <div class="planet__atmosphere">
+                            <div class="planet__surface"></div>
+                        </div>
+                    </a>
+                </div>
+                </div>
+                <div class="popup" id="popup8">
+                    <div class="popup-inner">
+                        <div class="popup__photo">
+                            <img src="images/solarsystem/neptune.jpg" alt="">
+                        </div>
+                        <div class="popup__text">
+                            <h1>Neptune</h1>
+                            <p>Neptune is the eighth and farthest known planet from the Sun in the Solar System. 
+                                In the Solar System, it is the fourth-largest planet by diameter, 
+                                the third-most-massive planet, and the densest giant planet. Neptune is 17 times 
+                                the mass of Earth, slightly more massive than its near-twin Uranus.
+                            </p>
+                        </div>
+                        <a class="popup__close" href="#">X</a>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
 

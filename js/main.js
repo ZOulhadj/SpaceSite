@@ -11,4 +11,16 @@ $(document).ready(function() {
 			$("header").css("background-color" , "transparent");  	
 	  	}
 	})
-})
+
+	// Expand space facts card on button click
+	$(".expand").click(function () {
+		$(".card").toggleClass('card-expanded');
+		$(".expand").css("display", "none");
+		$(".collapse").css("display", "block");
+	});
+	$(".collapse").click(function () {
+		$(".card").toggleClass('card-expanded');
+		$(".expand").css("display", "block");
+		$(".collapse").css("display", "none");
+	});
+});
