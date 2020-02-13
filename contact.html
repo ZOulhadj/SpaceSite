@@ -32,17 +32,13 @@
             <h1>Contact</h1>
         </div>
         <div class="card">
-        <form>
-            <input name="name" type="text" class="feedback-input" placeholder="Name" />
-            <input name="email" type="text" class="feedback-input" placeholder="Email" />
-            <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
-            <input type="submit" value="SUBMIT" />
-            <img src="images/contact.jpg" alt="">
-        </form>
+            <form name="form" onsubmit="return FormValidation()">
+                <input name="name" type="text" class="feedback-input" placeholder="Name" />
+                <input name="email" type="text" class="feedback-input" placeholder="Email" />
+                <textarea name="message" class="feedback-input" placeholder="Message"></textarea>
+                <input type="submit" value="SUBMIT" />
+            </form>
         </div>
-        <!-- <div class="card-expanded" style="display: none;" >
-			<button class="expand"><a>Hide</a></button>
-		</div> -->
     </section>
 
     <!-- Javascript files -->

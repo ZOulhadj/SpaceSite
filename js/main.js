@@ -24,3 +24,20 @@ $(document).ready(() => {
 		$(".collapse").css("display", "none");
 	});
 });
+
+
+
+const FormValidation = ()=> {
+	let name = document.forms["form"]["name"].value;
+	let email = document.forms["form"]["email"].value;
+	let message = document.forms["form"]["message"].value;
+
+	if (name == "" || email == "" || message == "") {
+		alert("Form field is missing!");
+	}
+}
+
+
+
+
+

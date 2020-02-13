@@ -4,6 +4,7 @@ form {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 80%;
 }
 .feedback-input {
     color: #1b1c1c;
@@ -20,6 +21,7 @@ form {
     width:100%;
     box-sizing: border-box;
     outline:0;
+    /* width: 100%; */
 }
 
 .feedback-input:focus { border:2px solid #000; }
